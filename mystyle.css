@@ -1,0 +1,111 @@
+/* Fonts ****************/
+
+@font-face {
+  font-family: bubbleboy;
+  src: url(fonts/bubbleboy/BUBBLEBOY2.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: almond_cream;
+  src: url(fonts/almond_cream/AlmondCream.ttf);
+}
+/*********************/
+
+
+body{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#68c197, #17257d);
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-family: bubbleboy;
+  font-size: 35px;
+  text-shadow: 2px 2px #68c197;
+}
+
+h1:hover{
+  color: #17257d;
+}
+
+h2 {
+  font-family: almond_cream;
+  font-size: 40px;
+}
+
+h2 {
+  justify-content: center;
+  display: flex;
+}
+h2:hover{
+  color: #17257d;
+}
+h3 {
+  font-family: roboto;
+  font-size: 20px
+}
+
+h3 {
+  justify-content: center;
+  display: flex;
+}
+#container{
+  position: relative;
+
+}
+#background-image img{
+justify-content: center;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: 10px;
+  position: relative;
+
+}
+#content{
+
+  background: #5771c5;
+  padding: 25px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  border: 3px solid #000;
+}
+#content:hover{
+  color: #000;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px
+  display: flex;
+  margin: 25px;
+  justify-content: center;
+}
+
+li{
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-family: roboto;
+  padding: 5px;
+}
+a:link{
+  color: #000;
+}
+a:visited{
+  color: #063a52;
+}
+
+a:hover{
+  color: #910f0f;
+}
