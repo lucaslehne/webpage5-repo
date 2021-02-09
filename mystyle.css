@@ -59,15 +59,13 @@ h3 {
 }
 #container{
   position: relative;
-
+  justify-content: center;
 }
-#background-image img{
-justify-content: center;
-  width: 150px;
-  height: 150px;
-  display: flex;
+#background-image{
   margin: 10px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+
 
 }
 #content{
@@ -84,10 +82,9 @@ justify-content: center;
 
 ul{
   list-style-type: none;
-  padding: 0px
-  display: flex;
+  padding: 0px;
   margin: 25px;
-  justify-content: center;
+  text-align: center;
 }
 
 li{
